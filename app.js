@@ -19,6 +19,7 @@ function loadText(){
         
         if(this.status == 200){
             console.log(this.responseText);
+            document.getElementById('text').innerHTML = this.responseText;
         }
         
     } 
